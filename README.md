@@ -1,6 +1,8 @@
 # Titanic: Machine Learning from Disaster
 
 ### Overview  
+This is the legendary Titanic ML competition – the best, first challenge for you to dive into ML competitions and familiarize yourself with how the Kaggle platform works.
+The competition is simple: use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
 The data has been split into two groups:  
 training set (train.csv)  
 test set (test.csv)
@@ -349,7 +351,7 @@ barchart('Sex')
 ```
 
 
-![png](output_16_0.png)
+![png](/Graphs/output_16_0.png)
 
 
 Male is more likely to be dead  
@@ -361,7 +363,7 @@ barchart('Pclass')
 ```
 
 
-![png](output_18_0.png)
+![png](/Graphs/output_18_0.png)
 
 
 Class 1 More likely to be Survived  
@@ -374,7 +376,7 @@ barchart('SibSp')
 ```
 
 
-![png](output_20_0.png)
+![png](/Graphs/output_20_0.png)
 
 
 
@@ -383,7 +385,7 @@ barchart('Parch')
 ```
 
 
-![png](output_21_0.png)
+![png](/Graphs/output_21_0.png)
 
 
 A Person aboarded with more than 2 parents or children more likely survived  
@@ -395,7 +397,7 @@ barchart('Embarked')
 ```
 
 
-![png](output_23_0.png)
+![png](/Graphs/output_23_0.png)
 
 
 A Person aboarded from C slightly more likely survived  
@@ -652,7 +654,7 @@ barchart('Title')
 ```
 
 
-![png](output_36_0.png)
+![png](/Graphs/output_36_0.png)
 
 
 title with Mr. more likely died  
@@ -919,7 +921,7 @@ barchart('Sex')
 ```
 
 
-![png](output_44_0.png)
+![png](/Graphs/output_44_0.png)
 
 
 female more likely to survive  
@@ -1225,7 +1227,7 @@ barchart('Age')
 ```
 
 
-![png](output_54_0.png)
+![png](/Graphs/output_54_0.png)
 
 
 
@@ -1244,7 +1246,7 @@ barchart('Age')
 ```
 
 
-![png](output_56_0.png)
+![png](/Graphs/output_56_0.png)
 
 
 age less than 16 more likely survived  
@@ -1399,7 +1401,7 @@ df.plot(kind='bar',stacked=True, figsize=(10,5))
 
 
 
-![png](output_61_1.png)
+![png](/Graphs/output_61_1.png)
 
 
 all classes mostly embarked is from s(southhampton)
@@ -1704,7 +1706,7 @@ df.plot(kind='bar',stacked=True, figsize=(10,5))
 
 
 
-![png](output_72_1.png)
+![png](/Graphs/output_72_1.png)
 
 
 
